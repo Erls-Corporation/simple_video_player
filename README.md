@@ -25,7 +25,7 @@ The Flash player does what you tell it to and nothing more, so all state and log
 
     flash_object.stop(); // stops the video
 
-    flash_object.volume(50); // sets volume to 50%
+    flash_object.volume(0.5); // sets volume to 50%
 
     flash_object.load('test.flv'); // loads file (needs to be relative to the swf)
 

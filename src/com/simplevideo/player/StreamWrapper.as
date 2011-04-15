@@ -123,7 +123,7 @@ package com.simplevideo.player {
 			play_loop.stop();
 		}
 				
-		public function volume( v : int ) : void
+		public function volume( v : Number ) : void
 		{
 			audio.volume = v;
 			stream.soundTransform = audio;

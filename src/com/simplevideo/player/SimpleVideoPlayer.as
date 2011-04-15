@@ -73,7 +73,7 @@ package com.simplevideo.player {
 			player.stop();
 		}
 		
-		public function volume(percent: int) : void {
+		public function volume(percent: Number) : void {
 			player.volume(percent);
 		}
 				
